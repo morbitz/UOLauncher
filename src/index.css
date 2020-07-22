@@ -1,0 +1,142 @@
+
+
+body {
+ background-image: url(Images/UOLogo.png);
+ background-repeat: no-repeat;
+ background-color: #000000 !important;
+ background-position: 50% 30px;
+}
+
+.logo{
+  display: flex;
+  flex: 2;
+
+}
+.buttonvote {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -104.5px; /*104.5px is half of the button's width*/
+}
+
+.buttonwiki {
+    position: fixed;
+    bottom: 10px;
+    left: 58%;
+    margin-left: -104.5px; /*104.5px is half of the button's width*/
+}
+
+
+.buttonexit {
+    position: fixed;
+    bottom: 10px;
+    left: 65%;
+    margin-left: -104.5px; /*104.5px is half of the button's width*/
+}
+
+
+.btn-danger{
+	background-color: transparent !important;
+    border-color: transparent !important;
+}
+.btn-primary{
+	background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.buttoninstall {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-top: -140px;
+  outline: none;
+  flex-direction: column;
+}
+
+.buttoncancel {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-top: -115px;
+  outline: none;
+  flex-direction: column;
+}
+
+.buttonplay {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-top: 170px;
+  outline: none;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-top: 20px;
+  outline: none;
+  flex-direction: column;
+}
+
+.progressbarbutton,
+.progressbarbutton:hover{
+  background-color: #1c1a1a;
+
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.main-container{
+
+}
+
+#progress-containers{
+  /* padding-bottom: 50px; */
+}
+
+.percent-text{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  color: #29d;
+  padding-top: 50px;
+}
+
+.download-info{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  color: #29d;
+  font-style: italic;
+}
+
+#discord-button,
+#website-button{
+  border: none;
+  background: none;
+  border-radius: 10px;
+}
+#website-button{
+  padding-left: 5px;
+}
+
+/* .links{
+  padding-left: 10px;
+
+} */
+
+/* #discord-button,
+#website-button{
+  border: none;
+  background: none;
+  border-radius: 10px;
+}
+#website-button{
+  padding-left: 5px;
+} */

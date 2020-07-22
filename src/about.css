@@ -1,0 +1,38 @@
+
+body {
+ background-image: url(Images/UOLogo.png);
+ background-repeat: no-repeat;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+ background-color: #ffffff;
+}
+
+.steps{
+    padding-bottom: 0px;
+}
+
+
+.links{
+    display: flex; 
+    flex: 1;
+    align-items: center;
+    padding-left: 15em;
+    padding-top: 80px;
+}
+
+#stepinfo{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#discord-button,
+#website-button{
+  border: none;
+  background: none;
+  border-radius: 10px;
+} 
+#website-button{
+  padding-left: 5px;
+}
